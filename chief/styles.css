@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:16px; 
+    font-family: 'Abril Fatface', cursive;
+    text-decoration:none;
+    list-style:none;
+}
+
+body {
+max-width:100%;
+height:100vh;
+position:relative;
+}
+
+nav {
+position:absolute;
+top:0;
+left:0;
+right:0;
+}
+
+nav ul {
+height:10vh;
+background-color:whitesmoke;
+display:flex;
+flex-flow:row wrap;
+justify-content:end;
+align-items:center;
+gap:100px;
+}
+nav ul li a {
+font-size:1.3rem;
+color:black;
+}
+nav ul li a:hover {
+border-bottom:3px solid black;
+}
+nav ul .last {
+margin-right:10px;
+}
+
+
+nav .logo-name {
+    padding:10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+nav .logo-name h1 {
+font-size:1.5rem;
+font-weight:300;
+}
+
+.container {
+max-width:100%;
+height:90vh;
+display:flex;
+flex-flow:row wrap;
+}
+
+.container .child-box {
+flex-basis:100%;
+height:50%;
+}
+
+.container .first {
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container .first h2 {
+font-size:4rem;
+font-weight:100;
+}
+
+.container .second {
+display:flex;
+justify-content:space-evenly;
+align-items:center;
+}
+
+.container .second .item {
+width:300px; 
+height:300px;
+position:relative;
+}
+.container .second .item:hover{
+border:2px solid black;
+}
+
+.container .second .item .box-item {
+padding:15px;
+position:absolute;
+bottom:0;
+right:0;
+left:0;
+background-color:black;
+text-align:center;
+}
+.box-item a {
+color:white;
+font-size:1.3rem;
+}
+
+.box-item a:hover{
+color:white;
+}
+.item img {
+width:100%;
+height:100%;
+object-fit:fill;
+}
+
+.footer {
+max-width:100%;
+height:10vh;
+background-color:#eee;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:1.2rem;
+}
+.footer p {
+font-family:'Source Sans Pro';
+font-weight:900;
+
+}
