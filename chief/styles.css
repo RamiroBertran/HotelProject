@@ -40,7 +40,7 @@ nav ul li a:hover {
 border-bottom:3px solid black;
 }
 nav ul .last {
-margin-right:10px;
+margin-right:20px;
 }
 
 
@@ -54,6 +54,9 @@ nav .logo-name {
 nav .logo-name h1 {
 font-size:1.5rem;
 font-weight:300;
+background-color:white;
+padding:20px;
+border-radius:0.5rem;
 }
 
 .container {
@@ -86,9 +89,11 @@ align-items:center;
 }
 
 .container .second .item {
-width:300px; 
-height:300px;
+width:40%; 
+height:90%;
 position:relative;
+overflow:hidden;
+border-radius:0.5rem 0.5rem 0 0;
 }
 .container .second .item:hover{
 border:2px solid black;
